@@ -25,13 +25,13 @@ final User currentUser = User(
 );
 
 // USERS
-final User sophia = User(
+final User shaktimaan = User(
   id: 6,
   name: 'Shaktimaan',
   imageUrl: 'assets/images/sophia.jpg',
 );
 
-final User greg = User(
+final User ironman = User(
   id: 1,
   name: 'Ironman',
   imageUrl: 'assets/images/greg.jpg',
@@ -41,7 +41,7 @@ final User thanos = User(
   name: 'Thanos',
   imageUrl: 'assets/images/james.jpg',
 );
-final User john = User(
+final User bp = User(
   id: 3,
   name: 'T Challa',
   imageUrl: 'assets/images/john.jpg',
@@ -57,7 +57,7 @@ final User hela = User(
   imageUrl: 'assets/images/sam.jpg',
 );
 
-final User steven = User(
+final User thor = User(
   id: 7,
   name: 'Thor',
   imageUrl: 'assets/images/steven.jpg',
@@ -69,7 +69,7 @@ List<User> favorites = [thanos, greg, steven, hela, spiderman];
 // EXAMPLE CHATS ON HOME SCREEN
 List<Message> chats = [
   Message(
-    sender: sophia,
+    sender: shaktimaan,
     time: '12:30 PM',
     text: 'Hello Kids',
     isLiked: false,
@@ -83,7 +83,7 @@ List<Message> chats = [
     unread: true,
   ),
   Message(
-    sender: greg,
+    sender: ironman,
     time: '4:30 PM',
     text: 'and I am.. IRONMAN',
     isLiked: false,
@@ -97,14 +97,14 @@ List<Message> chats = [
     unread: false,
   ),
   Message(
-    sender: john,
+    sender: bp,
     time: '2:30 PM',
     text: 'Who\'s Shaktimaan?',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: steven,
+    sender: thor,
     time: '1:30 PM',
     text: 'Bring me Thanos!!',
     isLiked: false,
