@@ -64,7 +64,7 @@ final User thor = User(
 );
 
 // FAVORITE CONTACTS
-List<User> favorites = [thanos, greg, steven, hela, spiderman];
+List<User> favorites = [thanos, hela, spiderman];
 
 // EXAMPLE CHATS ON HOME SCREEN
 List<Message> chats = [
